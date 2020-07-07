@@ -1,0 +1,9 @@
+RewriteEngine on
+ErrorDocument 404 http://localhost/media/404.php
+RewriteRule ^satis/([0-9a-zA-Z-_]+)/([0-9]+)$ single-product.php?sef=$1&satis_id=$2 [L,QSA]
+
+
+
+
+
+
